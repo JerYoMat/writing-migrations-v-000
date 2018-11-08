@@ -5,7 +5,9 @@ class CreateStudents < ActiveRecord::Migration[5.1]
       name TEXT
       )
   SQL
-  
-  
   ActiveRecord::Base.connection.execute(sql)
+  
+  def change 
+    
+  end 
 end
