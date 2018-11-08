@@ -1,5 +1,5 @@
 class ChangeDataTypes < ActiveRecord::Migration
   def change 
-    change_column 
+    change_column(students, birthdate, ) 
   end 
 end 
